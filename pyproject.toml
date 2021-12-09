@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pystock"
+version = "0.1.0"
+description = ""
+authors = ["rhinocerose <ashar.k.latif@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+DateTime = "^4.3"
+argparse = "^1.4.0"
+yahoo-fin = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+pydocstyle = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
